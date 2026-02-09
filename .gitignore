@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Dados Geográficos (PESADOS)
+processing/data/*.pbf
+processing/output/*.geojson
+processing/output/*.pmtiles
+webapp/public/data/*.pmtiles
+
+# Sistema
+.DS_Store
